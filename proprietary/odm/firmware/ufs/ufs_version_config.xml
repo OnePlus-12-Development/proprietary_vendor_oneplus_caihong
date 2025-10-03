@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FIRMWARE>
+        <File name="HN8T174EJKX075" manufacturer="SKhynix" target_version="A304"></File>
+        <File name="HN8T274EJKX130" manufacturer="SKhynix" target_version="A304"></File>
+        <File name="HN8T05DEHKX073" manufacturer="SKhynix" target_version="A003"></File>
+</FIRMWARE>
+

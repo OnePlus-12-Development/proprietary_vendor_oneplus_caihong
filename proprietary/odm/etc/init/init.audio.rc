@@ -1,0 +1,4 @@
+#hongxiang.jin@MULTIMEDIA.AUDIO.DRIVER 2024/01/26 add for aw882xx calibrate
+on boot
+    chown audioserver audio /dev/aw882xx_smartpa
+    chmod 0666 /dev/aw882xx_smartpa
