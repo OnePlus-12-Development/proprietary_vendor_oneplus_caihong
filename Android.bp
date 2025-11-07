@@ -15426,3 +15426,17 @@ cc_prebuilt_binary {
     prefer: true,
     device_specific: true,
 }
+
+install_symlink {
+    name: "odm_firmware_wireless_pen_23926_cps8601_firmware_bin",
+    device_specific: true,
+    installed_location: "firmware/wireless_pen/23926/cps8601_firmware.bin",
+    symlink_target: "/odm/firmware/wireless_pen/23976/cps8601_firmware.bin",
+}
+
+install_symlink {
+    name: "odm_firmware_wireless_pen_23927_cps8601_firmware_bin",
+    device_specific: true,
+    installed_location: "firmware/wireless_pen/23927/cps8601_firmware.bin",
+    symlink_target: "/odm/firmware/wireless_pen/23978/cps8601_firmware.bin",
+}

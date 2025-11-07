@@ -734,3 +734,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.pogo_keyboard-service \
     nvram_qmi \
     nvram_server
+
+PRODUCT_PACKAGES += \
+    odm_firmware_wireless_pen_23926_cps8601_firmware_bin \
+    odm_firmware_wireless_pen_23927_cps8601_firmware_bin
