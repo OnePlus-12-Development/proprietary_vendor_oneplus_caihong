@@ -13091,7 +13091,7 @@ cc_prebuilt_library_shared {
                 "libbinder_ndk",
                 "libhidlbase",
                 "libutils",
-                "vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm",
+                "vendor.oplus.hardware.displaypanelfeature-V1-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -14672,32 +14672,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm",
-    stem: "vendor.oplus.hardware.displaypanelfeature-V1-ndk",
-    owner: "oneplus",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/odm/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    device_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.pogo_keyboard-V1-ndk_platform",
     owner: "oneplus",
     strip: {
@@ -15315,7 +15289,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "libcutils",
                 "libhardware",
-                "vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm",
+                "vendor.oplus.hardware.displaypanelfeature-V1-ndk",
                 "libjsoncpp",
                 "libc++",
                 "libc",
